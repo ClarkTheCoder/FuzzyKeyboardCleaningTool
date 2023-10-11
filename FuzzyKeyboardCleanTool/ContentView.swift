@@ -21,6 +21,7 @@ struct ContentView: View {
             
             Image("systemsettings")
                 .resizable()
+                .frame(width: 400, height: 300)
                         
             Button(action: {
                 isKeyboardLocked.toggle()
