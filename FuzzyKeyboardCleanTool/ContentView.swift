@@ -8,17 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isKeyboardLocked: Bool = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Fuzzy - Keyboard Cleaning Tool")
+                .padding()
+                .font(.largeTitle)
+            
+            Button(action: {
+                isKeyboardLocked.toggle()
+                if isKeyboardLocked {
+                    createEventTap()
+                } else {
+                    disableEventTap()
+                    }
+                }) {
+                    Text(isKeyboardLocked ? "Unlock Keyboard" : "Lock Keyboard")
+                    }
+                }
+                .padding()
+            }
         }
-        .padding()
-    }
-}
-
 #Preview {
     ContentView()
 }
