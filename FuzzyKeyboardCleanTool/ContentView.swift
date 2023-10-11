@@ -16,6 +16,9 @@ struct ContentView: View {
                 .padding()
                 .font(.largeTitle)
             
+            Text("Grant permissions to FuzzyKeyboadCleanTool via System Settings > Privacy & Security > Accessibility")
+                .padding()
+    
             Button(action: {
                 isKeyboardLocked.toggle()
                 if isKeyboardLocked {
@@ -30,6 +33,7 @@ struct ContentView: View {
                 .padding()
             }
         }
+
 #Preview {
     ContentView()
 }
