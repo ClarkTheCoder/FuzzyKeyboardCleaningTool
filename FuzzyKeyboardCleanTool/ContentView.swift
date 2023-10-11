@@ -16,12 +16,13 @@ struct ContentView: View {
                 .padding()
                 .font(.largeTitle)
             
-            Text("Grant permissions to FuzzyKeyboadCleanTool via System Settings > Privacy & Security > Accessibility")
+            Text("Grant permissions to via System Settings > Privacy & Security > Accessibility")
                 .padding()
             
             Image("systemsettings")
                 .resizable()
                 .frame(width: 400, height: 300)
+                .padding()
                         
             Button(action: {
                 isKeyboardLocked.toggle()
