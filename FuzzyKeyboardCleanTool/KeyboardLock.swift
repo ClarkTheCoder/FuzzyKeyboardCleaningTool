@@ -29,8 +29,7 @@ func eventTapCallback(proxy: CGEventTapProxy, type: CGEventType, event: CGEvent,
                                callback: eventTapCallback,
                                userInfo: nil)
    
-    if eventTap == nil {
-       print("Ensure essential permissions granted in System Settings")
+        if eventTap == nil {
        exit(1)
     }
         

@@ -16,14 +16,14 @@ struct ContentView: View {
                 .padding()
                 .font(.largeTitle)
             
-            Text("Grant permissions to via System Settings > Privacy & Security > Accessibility")
+            Text("This application is designed to disable your keyboard temporarily, allowing you to easily clean it without the risk of inadvertently turning on your Mac or generating unintended input. Click 'Lock Keyboard' to begin, and when you're done simply click 'Unlock Keyboard' or exit app.")
                 .padding()
+                .frame(width: 800)
             
-            Image("systemsettings")
-                .resizable()
-                .frame(width: 400, height: 320)
+            Text("Grant permissions via System Settings > Privacy & Security > Accessibility")
                 .padding()
-                        
+                .frame(width: 800)
+               
             Button(action: {
                 isKeyboardLocked.toggle()
                 if isKeyboardLocked {
@@ -34,13 +34,8 @@ struct ContentView: View {
                 }) {
                     Text(isKeyboardLocked ? "Unlock Keyboard" : "Lock Keyboard")
                     }
+                    .padding()
                 }
-                .padding()
-        HStack{
-            Link("Give me feedback!", destination: URL(string: "https://www.carsonclark.dev")!)
-                .padding()
-        }
-        
             }
         }
 
