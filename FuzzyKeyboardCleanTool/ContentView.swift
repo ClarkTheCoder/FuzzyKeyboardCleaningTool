@@ -21,7 +21,7 @@ struct ContentView: View {
             
             Image("systemsettings")
                 .resizable()
-                .frame(width: 400, height: 300)
+                .frame(width: 400, height: 320)
                 .padding()
                         
             Button(action: {
@@ -36,6 +36,11 @@ struct ContentView: View {
                     }
                 }
                 .padding()
+        HStack{
+            Link("Give me feedback!", destination: URL(string: "https://www.carsonclark.dev")!)
+                .padding()
+        }
+        
             }
         }
 
