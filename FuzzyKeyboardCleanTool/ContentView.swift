@@ -36,6 +36,8 @@ struct ContentView: View {
                     }
                     .padding()
                 }
+            Link("Give me feedback!", destination: URL(string: "https://carsonclark.dev")!)
+            .padding()
             }
         }
 
