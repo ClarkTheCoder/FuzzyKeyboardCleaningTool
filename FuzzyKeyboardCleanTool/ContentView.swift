@@ -34,7 +34,6 @@ struct ContentView: View {
                 }) {
                     Text(isKeyboardLocked ? "Unlock Keyboard" : "Lock Keyboard")
                     }
-                    .padding()
                 }
             Link("Give me feedback!", destination: URL(string: "https://carsonclark.dev")!)
             .padding()
@@ -44,3 +43,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+    

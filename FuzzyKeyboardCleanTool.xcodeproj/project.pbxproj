@@ -38,7 +38,7 @@
 		B59FF5122AD67FFE00CF2745 /* FuzzyKeyboardCleanTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuzzyKeyboardCleanTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59FF5152AD67FFE00CF2745 /* FuzzyKeyboardCleanToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzyKeyboardCleanToolApp.swift; sourceTree = "<group>"; };
 		B59FF5172AD67FFE00CF2745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B59FF5192AD67FFF00CF2745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B59FF5192AD67FFF00CF2745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FuzzyKeyboardCleanTool/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		B59FF51C2AD67FFF00CF2745 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B59FF51E2AD67FFF00CF2745 /* FuzzyKeyboardCleanTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FuzzyKeyboardCleanTool.entitlements; sourceTree = "<group>"; };
 		B59FF5232AD67FFF00CF2745 /* FuzzyKeyboardCleanToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuzzyKeyboardCleanToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
