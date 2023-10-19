@@ -16,7 +16,7 @@ struct ContentView: View {
                 .padding()
                 .font(.largeTitle)
             
-            Text("This application is designed to disable your keyboard temporarily, allowing you to easily clean it without the risk of inadvertently turning on your Mac or generating unintended input. Click 'Lock Keyboard' to begin, and when you're done simply click 'Unlock Keyboard' or exit app.")
+            Text("This application is designed to disable your keyboard temporarily, allowing you to easily clean it without the risk of inadvertently turning on your Mac or generating unintended input. Click 'Lock Keyboard' to begin, and when you're done simply click 'Unlock Keyboard' or exit the app.")
                 .padding()
                 .frame(width: 800)
             
