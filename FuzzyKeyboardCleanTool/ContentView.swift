@@ -20,7 +20,7 @@ struct ContentView: View {
                 .padding()
                 .frame(width: 800)
             
-            Text("Grant permissions via System Settings > Privacy & Security > Accessibility")
+            Text("Drag into Applications folder. Grant permissions via System Settings > Privacy & Security > Accessibility")
                 .padding()
                 .frame(width: 800)
                
